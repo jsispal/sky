@@ -2,7 +2,6 @@
 
 # Description
 This application is a single page implementation of an online catalogue system using the MEAN stack.
-This application implements a single page todo list app using the MEAN stack.
 
 The backend and front-end code is segregated into two directories:
 
