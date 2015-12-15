@@ -1,0 +1,46 @@
+<div class="row">
+
+  <div class="col s6 m4 l4">
+    <div class="card">
+      <div class="card-content product-selection-card ">
+        <span class="card-title">Sports</span>
+        <ul ng-repeat="sport in channels.sport">
+          <li>
+            <input type="checkbox" id="{{sport._id}}" ng-model="sport.checked" ng-change="selectedChannels(sport)" />
+            <label for="{{sport._id}}">{{sport.product}}</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s6 m4 l4">
+    <div class="card">
+      <div class="card-content product-selection-card ">
+        <span class="card-title">News</span>
+        <ul ng-repeat="news in channels.news">
+          <li>
+            <input type="checkbox" id="{{news._id}}" ng-model="news.checked" ng-change="selectedChannels(news)" />
+            <label for="{{news._id}}">{{news.product}}</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m4 l4">
+    <div class="card">
+      <div class="card-content product-selection-card ">
+        <span class="card-title">Basket</span>
+        <br/><br/>
+        <div class="chip" ng-repeat="channel in basketChannels">
+          {{channel.product}}
+        </div>
+      </div>
+      <div class="card-action">
+        <a class="cursor-pointer" ng-click="checkout()">Checkout</a>
+      </div>
+    </div>
+  </div>
+
+</div>

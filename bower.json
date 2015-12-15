@@ -1,0 +1,13 @@
+{
+  "name": "sky-mini-project",
+  "description": "Sky mini project",
+  "main": "server.js",
+  "authors": [
+    "Jagdeep Sispal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}

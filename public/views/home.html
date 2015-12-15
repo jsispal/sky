@@ -1,0 +1,14 @@
+<div class="row">
+
+  <ul class="collection" ng-repeat="user in users" ng-click="selectUser(user)">
+
+    <li class="collection-item avatar cursor-pointer">
+      <i class="material-icons circle green">assignment_ind</i>
+      <p>Customer ID: {{user.customerID}}</p>
+      <p class="grey-text">Location: {{user.locationID}}</p>
+      <a class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+    </li>
+
+  </ul>
+
+</div>

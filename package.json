@@ -1,0 +1,15 @@
+{
+  "name": "sky-catalogue-application",
+  "version": "1.0.0",
+  "description": "A catalogue application for SKY",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jagdeep Sispal",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10"
+  }
+}

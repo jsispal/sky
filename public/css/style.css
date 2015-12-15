@@ -1,0 +1,12 @@
+/* Applicaiton Styles */
+
+.product-selection-card {
+  min-height: 250px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.chip {
+  display: block;
+  margin-bottom: 10px;
+}
